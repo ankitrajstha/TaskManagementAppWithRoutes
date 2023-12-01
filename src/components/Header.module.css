@@ -1,0 +1,48 @@
+header {
+  max-width: 100%;
+  height: 6rem;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+header h1 {
+  text-align: center;
+  color: #222;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto; /* Allow the header to adjust its height based on content */
+    flex-direction: column; /* Stack items vertically for small screens */
+    padding: 1rem; /* Increase padding for better spacing */
+    /* display: none; */
+  }
+  h1 {
+    font-size: 2rem; /* Add margin to separate the title from other content */
+  }
+}
+@media (max-width: 576px) {
+  header {
+    height: auto; /* Allow the header to adjust its height based on content */
+    flex-direction: column; /* Stack items vertically for small screens */
+    padding: 1rem; /* Increase padding for better spacing */
+  }
+  h1 {
+    font-size: 1.8rem; /* Add margin to separate the title from other content */
+  }
+}
+@media (max-width: 320px) {
+  header {
+    height: auto; /* Allow the header to adjust its height based on content */
+    flex-direction: column; /* Stack items vertically for small screens */
+    padding: 1rem; /* Increase padding for better spacing */
+  }
+  h1 {
+    font-size: 1.4rem; /* Add margin to separate the title from other content */
+  }
+}

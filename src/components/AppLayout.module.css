@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+}
+
+@media (max-width: 762px) {
+  .app {
+    flex-direction: column;
+  }
+}

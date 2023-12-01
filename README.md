@@ -1,8 +1,10 @@
-# React + Vite
+to run this in local device follow the steps:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. npm i
+2. npm i react-router-dom
+3. npm i json-server
+4. in package.json add a script: "server": "json-server --watch data/data.json --port 9000"
+5. npm run server
+6. npm run dev
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+this is the steps to run the code.
